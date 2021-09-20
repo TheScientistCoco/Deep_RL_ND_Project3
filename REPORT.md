@@ -1,4 +1,4 @@
-# Project 2: Continuous Control
+# Project 3: Collaboration and Competition
 Yu Tao
 
 ## Overview
