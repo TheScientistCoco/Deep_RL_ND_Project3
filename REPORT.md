@@ -85,9 +85,10 @@ This tennis environment was solved in **745** episodes, the average score from 7
 
 ## Ideas for Future Work
 
-To improve the performance of the agent(s), there are several ideas to tune the DDPG algorithm we have used:
+To improve the performance of the agent(s), there are several ideas to tune the MADDPG algorithm we have used:
 - Through **trial and error** and test out other combinations of the hyperparameters, there might be other sets of values that could solve the environment faster.
-- DDPG used minibatches taken uniformly from the replay buffer. We can test out the **prioritized replay buffer** and compare the results.
-- The requirement of the task was set to a score of +30 over 100 consecutive episodes. With a **higher target score**, the agents might do better.
+- The MADDPG used minibatches taken uniformly from the replay buffer. We can test out the **prioritized replay buffer** and compare the results.
+- The MADDPG used the Ornstein-Uhlenbeck noise to solve the environment. We can test out **other noise process algorithms** and compare the results.
+- The requirement of the task was set to a score of +0.5 over 100 consecutive episodes. With a **higher target score**, the agents might do better.
 
-There are also other actor-critic methods available for us to explore, such as [A3C - Asynchronous Advantage Actor-Critic](https://arxiv.org/abs/1602.01783), [PPO - Proximal Policy Optimization](https://arxiv.org/pdf/1707.06347.pdf), [D4PG - Distributed Distributional Deterministic Policy Gradients](https://arxiv.org/pdf/1804.08617.pdf), etc. We can run this project on these algorithms and compare the results.
+There are also other actor-critic methods available for us to explore, such as [Twin Delayed DDPG (TD3) alorithm](https://spinningup.openai.com/en/latest/algorithms/td3.html). We can run this project on alternative algorithms and compare the results.
