@@ -79,9 +79,9 @@ The networks used the Adam optimizer, and the learning rate was set to 0.001, wi
 
 ### Plot of Rewards
 
-![Rewards](./images/Rewards.png)
+![Rewards](./images/Scores.png)
 
-The second environment was used, which is to train on **20 identical agents**. This model solved the environment in **20** episodes, which meets the requirement that the agents are able to receive an average reward (over 100 episodes, and over all 20 agents) of at least +30. The final model is saved in **checkpoint_actor.pth** and **checkpoint_critic.pth**.
+This tennis environment was solved in **745** episodes, the average score from 745 to 844 is **0.538**, which meets the requirement that the average (over 100 episodes) of the scores from two agents is at least +0.5. The final model weights are saved in **checkpoint_actor_0.pth** and **checkpoint_critic_0.pth** for the first agent and **checkpoint_actor_1.pth** and **checkpoint_critic_1.pth** for the second agent.
 
 ## Ideas for Future Work
 
