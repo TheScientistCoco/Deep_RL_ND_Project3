@@ -19,7 +19,7 @@ The environment is considered solved, when the average (over 100 episodes) of th
 ## Learning Algorithm
 
 ### Multi Agent Deep Deterministic Policy Gradient (MADDPG)
-This project implements an off-policy method called **Multi Agent Deep Deterministic Policy Gradient**. For the single agent DDPG, the details can be found in [this paper](https://arxiv.org/pdf/1509.02971.pdf), written by researchers at Google Deepmind. The DDPG algorithm belongs to the actor-critic methods, that use deep function approximators to learn policies in high-dimensional, continuous action spaces. From the single agent DDPG, we can make modifications to apply it to multiple competitive agents simultaneously in the Tennis environment. If you are interested in MADDPG, the details are in [this paper](https://proceedings.neurips.cc/paper/2017/file/68a9750337a418a86fe06c1991a1d64c-Paper.pdf)
+This project implements an off-policy method called **Multi Agent Deep Deterministic Policy Gradient**. For the single agent DDPG, the details can be found in [this paper](https://arxiv.org/pdf/1509.02971.pdf), written by researchers at Google Deepmind. The DDPG algorithm belongs to the actor-critic methods, that use deep function approximators to learn policies in high-dimensional, continuous action spaces. From the single agent DDPG, we can make modifications to apply it to multiple competitive agents simultaneously in the Tennis environment. If you are interested in MADDPG, the details are in [this paper](https://proceedings.neurips.cc/paper/2017/file/68a9750337a418a86fe06c1991a1d64c-Paper.pdf).
 
 The implementation details of MADDPG can be found in the **maddpg_agent.py** file in this repository.
 
